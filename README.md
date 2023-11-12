@@ -29,12 +29,17 @@ This is my method for Creating .Ico files and for creating DLL that store .Ico f
     4. Layer → Transparency → Add Alpha Channel
     5. Remove background by pressing the Delete key
     6. Drag and drop the designed SVG on the layer.
-    7. Make sure the SVG size matches the size set in Step 3.
-    8. Click Ok.
-    9. Delete Layer Background
-    10. File→ Export…
-    11. Update the file name to end with the .ico extension 
-    12. Export
+    7. Copy orginal Layer.
+    8. Paste layer
+    9. Select all and reduce size set.
+    10. Repeate Step 7 to 9 until size set is 16.
+        Note: Smaller size sets should be on the top layers, in increasing size. 
+    11. Make sure the layer size matches the size set in Step 3.
+    12. Click Ok.
+    13. Delete Layer Background
+    14. File→ Export…
+    15. Update the file name to end with the .ico extension 
+    16. Export
 # To create a Ico DLL project in Visual Studio
     • Visual Studio needs to install Desktop development with C++. 
     1. Open Visual Studio → Create a New Project dialog box.
